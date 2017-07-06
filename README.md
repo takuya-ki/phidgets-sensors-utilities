@@ -21,19 +21,18 @@ Please set according to [Quick Downloads](https://www.phidgets.com/docs/Language
 
  `$ ./pso`
 
-However, with the above command, it was impossible to build the module, so you should use the pip package management system as below.
+However, with the above command, it was impossible to build the module,  
+so you should use the pip package management system as below([References](https://stackoverflow.com/questions/8295644/pypi-userwarning-unknown-distribution-option-install-requires)).
 
-[References](https://stackoverflow.com/questions/8295644/pypi-userwarning-unknown-distribution-option-install-requires)
-
- `$ Python setup.py sdist`  
- `$ Cd dist`  
- `$ Pip install Phidget 22-1.0.0.tar.gz`  
+ `$ python setup.py sdist`  
+ `$ cd dist`  
+ `$ pip install Phidget 22-1.0.0.tar.gz`  
 
 ### [S Type Load Cell(0~100kg)](https://www.phidgets.com/?tier=3&catid=9&pcid=7&prodid=229)
 
 - python  
-	$ git clone git@github.com:takuya-ki/phidgets-sensors-utilities.git
-	$ cd phidgets-sensors-utilities/s-type-load-cell-100kg/(LANGUAGE)
+	`$ git clone git@github.com:takuya-ki/phidgets-sensors-utilities.git`  
+	`$ cd phidgets-sensors-utilities/s-type-load-cell-100kg/(LANGUAGE)`
 
 - jupyter notebook4.1.0 or above(recommended)
 - python3.0 or above
