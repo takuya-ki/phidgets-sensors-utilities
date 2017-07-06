@@ -4,8 +4,8 @@ This is data logging scripts for [Phidgets](cvent.com/events/the-11th-internatio
 
 ## Description
 
-This is a examples for phidegts sensors.
-And a [PhidgetBridge 4-Input](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=35) is used for measuring the output from a load cell.
+This is a examples for phidegts sensors.  
+And a [PhidgetBridge 4-Input](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=35) is used for measuring the output from a load cell.  
 For the API for using this board, please refer to the [official site](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=35).
 
 ## Features
@@ -17,7 +17,7 @@ For the API for using this board, please refer to the [official site](https://ww
 
 ### Setup Phidgets22 API
 
-Please set according to [Quick Downloads here](https://www.phidgets.com/docs/Language_-_Python#Quick_Downloads)
+Please set according to [Quick Downloads](https://www.phidgets.com/docs/Language_-_Python#Quick_Downloads)
 
  `$ ./pso`
 
@@ -25,13 +25,13 @@ However, with the above command, it was impossible to build the module, so you s
 
 [References](https://stackoverflow.com/questions/8295644/pypi-userwarning-unknown-distribution-option-install-requires)
 
- `$ Python setup.py sdist`
- `$ Cd dist`
- `$ Pip install Phidget 22-1.0.0.tar.gz`
+ `$ Python setup.py sdist`  
+ `$ Cd dist`  
+ `$ Pip install Phidget 22-1.0.0.tar.gz`  
 
-### [S Type Load Cell(0 ~ 100kg)](https://www.phidgets.com/?tier=3&catid=9&pcid=7&prodid=229)
+### [S Type Load Cell(0~100kg)](https://www.phidgets.com/?tier=3&catid=9&pcid=7&prodid=229)
 
-- python
+- python  
 	$ git clone git@github.com:takuya-ki/phidgets-sensors-utilities.git
 	$ cd phidgets-sensors-utilities/s-type-load-cell-100kg/(LANGUAGE)
 
@@ -40,7 +40,7 @@ However, with the above command, it was impossible to build the module, so you s
 
 ## Usage
 
-- python
+- python  
  `$ jupyter notebook (script name).py`
 
 ## Author/Contributors
