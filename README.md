@@ -5,7 +5,7 @@ This is data logging scripts for [Phidgets](cvent.com/events/the-11th-internatio
 ## Description
 
 This is a examples for phidegts sensors.  
-And a [PhidgetBridge 4-Input](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=35) is used for measuring the output from a load cell.  
+[PhidgetBridge 4-Input](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=35) is used for measuring the output from a load cell.  
 For the API for using this board, please refer to the [official site](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=35).
 
 ## Features
@@ -18,9 +18,6 @@ For the API for using this board, please refer to the [official site](https://ww
 ### Setup Phidgets22 API
 
 Please set according to [Quick Downloads](https://www.phidgets.com/docs/Language_-_Python#Quick_Downloads)
-
- `$ ./pso`
-
 However, with the above command, it was impossible to build the module,  
 so you should use the pip package management system as below([References](https://stackoverflow.com/questions/8295644/pypi-userwarning-unknown-distribution-option-install-requires)).
 
@@ -40,7 +37,7 @@ so you should use the pip package management system as below([References](https:
 ## Usage
 
 - python  
- `$ jupyter notebook (script name).py`
+ `$ jupyter notebook (file name).ipynb`
 
 ## Author/Contributors
 
