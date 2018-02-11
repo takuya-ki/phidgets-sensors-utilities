@@ -31,7 +31,7 @@ You should use the pip package management system as below ([References](https://
 	`$ cd phidgets-sensors-utilities/s-type-load-cell-100kg/(LANGUAGE)`
 
 - jupyter notebook4.1.0 or above (recommended)
-- python3.0 or above
+- python3.0.0 or above
 
 ## Usage
 
@@ -40,8 +40,8 @@ You should use the pip package management system as below ([References](https://
 
 ## Author/Contributors
 
-qiita: [@takuya-ki](http://qiita.com/takuya-ki)
+[Takuya Kiyokawa](https://takuya-ki.github.io/)
 
 ## License
 
-This software is released under the MIT License, see LICENSE.txt.
+This software is released under the MIT License, see LICENSE.
