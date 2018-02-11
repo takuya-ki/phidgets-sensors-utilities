@@ -27,11 +27,11 @@ You should use the pip package management system as below ([References](https://
 ### [S Type Load Cell (0~100kg)](https://www.phidgets.com/?tier=3&catid=9&pcid=7&prodid=229)
 
 - python  
-	`$ git clone git@github.com:takuya-ki/phidgets-sensors-utilities.git`  
-	`$ cd phidgets-sensors-utilities/s-type-load-cell-100kg/(LANGUAGE)`
+	`$ git clone git@github.com:takuya-ki/phidgets-sensors-utils.git`  
+	`$ cd phidgets-sensors-utils/s-type-load-cell-100kg/(LANGUAGE)`
 
-- jupyter notebook4.1.0 or above (recommended)
-- python3.0.0 or above
+- jupyter notebook 4.1.0 or above (recommended)
+- python 3.0.0 or above
 
 ## Usage
 
